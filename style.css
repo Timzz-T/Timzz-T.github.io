@@ -1,0 +1,43 @@
+body {
+    background-color: aqua;
+}
+
+.first {
+    font-size: 90px;
+}
+
+.second {
+    border: 10px solid teal;
+    color: royalblue;
+    background-color: gold;
+    font-size: 300%;
+    text-align: center;
+}
+
+p {
+    background-color: royalblue;
+}
+
+img {
+    width: 2000px;
+    height: 100%;
+}
+
+.pcpp-part-list-image {
+    width: 100px;
+    height: 100%;
+}
+.gear-list-image {
+    width: 100px;
+    height: 100%;
+}
+
+table {
+    width: 600px;    
+}
+
+td img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
