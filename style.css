@@ -14,11 +14,7 @@ body {
     text-align: center;
 }
 
-p {
-    background-color: royalblue;
-}
-
-.devpath {
+#devpath {
     width: 2000px;
     height: 100%;
 }
@@ -81,3 +77,8 @@ a:link {
     height: 200px;
     font-size: 50px;
   }
+
+#timebut {
+    width: 500px;
+}
+

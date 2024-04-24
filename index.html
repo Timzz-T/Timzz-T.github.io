@@ -3,6 +3,8 @@
 <head> 
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/x-icon" href="Images/Timzz logo.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="script.js"></script>
 <title>Tim's Website</title>
 </head>
 
@@ -31,11 +33,15 @@
 <h2>
     heading 2
 </h2>
+<br>
 
+<button id="timebut" type="button"
+onclick="document.getElementById('time').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<br>
 
-
-
-
+<p id="time"></p>
+<br>
 
 <h1 class="second">
 <pre>
@@ -51,8 +57,10 @@
 
 <img src="Images/rage.gif">
 
-
-
+<p>Save the doc/web by pressing <kbd>Ctrl + S</kbd></p>
+<br>
+<var>var?</var>
+<br>
 <p>
 This is a test website to test my skills :)
 </p>
@@ -83,13 +91,36 @@ Ordered list:
 <br>
 <br>
 
+<div>
+just a division that can be customized with css 
+<br>
+can include a paragraph, heading etc...
+<br>
+Can also be used to group sections of the website together
+</div>
+
+
+<br>
+<br>
+
+<iframe src="https://www.w3schools.com/html/html_iframe.asp"></iframe>
+
+
+
+
+
+The <span style="color: red;">Span</span> make certain parts of text styling different
+
+<br>
+<br>
+
 
 <button onclick="document.location='page2.html'">Page 2</button>
 <br>
 <br>
 
 
-<img class="devpath" src="Images/WebDevPath.png">
+<img id="devpath" src="Images/WebDevPath.png">
 
 
 <img src="Images/maptest.png" usemap="#val">
